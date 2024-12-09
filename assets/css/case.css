@@ -1,0 +1,16 @@
+.asdasd {
+    display: flex;
+    gap: 1rem;
+}
+
+.asdasd img {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+@media screen and (max-width:1200px) {
+    .asdasd {
+        display: block;
+    }
+}

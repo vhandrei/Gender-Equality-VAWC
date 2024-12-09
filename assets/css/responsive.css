@@ -1,0 +1,29 @@
+@media screen and (max-width:1000px) {
+    .asdv {
+        display: flex;
+        flex-direction: column;
+    }
+    .newsContainer {
+        width: 13rem;
+    }
+    .newsContainer img {
+        width: 100%;
+    }
+    .case-scenarioCon {
+        display: flex;
+        flex-wrap: wrap; /* Allows wrapping to the next line */
+        justify-content: center; /* Centers the content */
+        gap: 16px; /* Adds space between the elements */
+    }
+    .case-scenarioCon div {
+        flex: 1 1 calc(50% - 16px); /* Each div takes up 50% of the container width minus the gap */
+        box-sizing: border-box; /* Ensures padding and borders don't affect width */
+        border: 1px solid #ccc; /* Optional: Adds a border for visibility */
+    }
+    .hgfh,
+    .fmvkm {
+        font-size: 8px;
+        text-align: left;
+    }
+    
+}
